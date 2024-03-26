@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+button {
+    width: 250px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    background-color: #1e273e;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #1e273e;
+    transition: 0.2s;
+}
+
+button:not(:hover) {
+    transition: 0.2s;
+}

@@ -1,0 +1,18 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #1e273e;
+    padding: 40px;
+    color: #fff;
+}
+
+.question-list-container {
+    width: 300px;
+}
+
+.answer-list-container {
+    width: 300px;
+}
